@@ -1,6 +1,6 @@
 # tinydot
 
-A specification language for JavaScript data and functions inspired by
+A library for specifying JavaScript data and functions inspired by
 [Clojure's](http://clojure.org) amazing
 [`core.spec`](http://clojure.org/about/spec).
 
