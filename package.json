@@ -1,0 +1,19 @@
+{
+  "name": "tinydot",
+  "version": "0.0.1",
+  "description": "A library for specifying JavaScript data and functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotttrinh/tinydot.git"
+  },
+  "author": "Scott Trinh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scotttrinh/tinydot/issues"
+  },
+  "homepage": "https://github.com/scotttrinh/tinydot#readme"
+}
