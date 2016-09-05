@@ -4,7 +4,9 @@
   "description": "A library for specifying JavaScript data and functions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c rollup.config.js",
+    "pretest": "rollup -c rollup-test.config.js",
+    "test": "mocha build/tests.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/scotttrinh/tinydot#readme",
   "devDependencies": {
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "rollup": "^0.34.13",
+    "rollup-plugin-commonjs": "^4.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "testcheck": "^0.1.4"
   }
 }
